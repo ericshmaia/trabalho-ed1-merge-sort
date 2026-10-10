@@ -1,38 +1,38 @@
-Trabalho Prático: Algoritmos de Busca e Ordenação
-Professora: Rosana Rego
-PEX1241 - Algoritmos e Estrutura de dados I
-Bacharelado Interdisciplinar em Tecnologia da Informação - UFERSA
+# Trabalho Prático: Algoritmos de Busca e Ordenação
+**Professora:** Rosana Rego | PEX1241 - Algoritmos e Estrutura de Dados I  
+**Instituição:** Bacharelado Interdisciplinar em Tecnologia da Informação - UFERSA  
 
-Dupla: Danilo e Eric
-Algoritmo Sorteado: Merge Sort Iterativo
+**Dupla:** Danilo de Oliveira Nunes e Eric Maia Carlos  
+**Algoritmo Sorteado:** Merge Sort Iterativo (Bottom-Up)  
 
+---
+
+### 📂 O Projeto
 O projeto consiste em um simulador interativo desenvolvido em linguagem C com a biblioteca gráfica Raylib, aplicando os seguintes tópicos estudados na disciplina:
-• Tipos Estruturados (Struct para representação das barras)
-• União (Union para armazenamento de metadados)
-• Enumerações (Enum para controle dos estados do simulador)
-• Manipulação de Arquivos (Leitura de dados a partir do arquivo dados.txt)
 
-Controles do Simulador:
-[I] Iniciar / Continuar a ordenação automática
-[P] Pausar o simulador
-[R] Reiniciar o vetor com os dados do arquivo
-[N] Próximo passo manual (Avança um frame por clique)
+*   **Tipos Estruturados:** `struct` para a representação e renderização das barras.
+*   **União de Dados:** `union` para o armazenamento otimizado de metadados.
+*   **Enumerações:** `enum` para o controle preciso da máquina de estados do simulador.
+*   **Manipulação de Arquivos:** Leitura dinâmica de dados a partir do arquivo `dados.txt`.
 
-Compilando e executando o simulador no terminal do Windows (VS Code)
+---
 
-Para compilar o simulador com a linkagem da biblioteca Raylib, digite o comando abaixo no terminal:
-C:\msys64\ucrt64\bin\gcc.exe trabalho_ed1.c -o trabalho_ed1.exe -I C:\msys64\ucrt64\include -L C:\msys64\ucrt64\lib -lraylib -lopengl32 -lgdi32 -lwinmm
+### 🎮 Controles do Simulador
+*   `[I]` **Iniciar / Continuar:** Ativa a ordenação automática contínua.
+*   `[P]` **Pausar:** Congela o estado atual das variáveis e barras.
+*   `[R]` **Reiniciar:** Recarrega o arquivo `dados.txt` e reseta os contadores.
+*   `[N]` **Próximo Passo:** Avança apenas um frame/iteração por clique (modo manual).
 
-Para entrar na pasta do projeto e garantir o diretório correto, digite:
-cd C:\Prog\Trabalho_ED1
+---
 
-Para executar o simulador na sua máquina, digite:
-.\trabalho_ed1.exe
+### 💻 Como Compilar e Executar (Windows)
+Para compilar o simulador com a correta linkagem da biblioteca Raylib, abra o terminal no VS Code e digite o comando abaixo:
 
-Significado dos parâmetros utilizados no compilador:
-• C:\msys64\ucrt64\bin\gcc.exe: é o caminho direto do compilador do C que transforma o código fonte em um executável.
-• -o trabalho_ed1.exe: indica o nome do arquivo executável que será gerado após a compilação.
-• -I e -L: indicam ao compilador os caminhos das pastas onde estão guardados os arquivos de inclusão (.h) e as bibliotecas (.lib) da Raylib no MSYS2.
-• -lraylib -lopengl32 -lgdi32 -lwinmm: realiza a linkagem das bibliotecas gráficas necessárias para abrir a janela do jogo no Windows.
+```bash
+g++ trabalho_ed1.c -o trabalho_ed1.exe -lraylib -lopengl32 -lgdi32 -lwinmm
+```
 
-UFERSA - Campus Pau dos Ferros
+Após a compilação, execute o programa com:
+```bash
+./trabaho_ed1.exe
+```
