@@ -4,8 +4,8 @@ Professora: Rosana Cibely Rego
 PEX1241 - Algoritmos e Estrutura de dados I  
 Bacharelado Interdisciplinar em Tecnologia da Informação - UFERSA  
 
-Componentes: Danilo de Oliveira Nunes e Eric Maia Carlos  
-Algoritmo: Merge Sort Iterativo  
+Dupla: Danilo de Oliveira Nunes e Eric Maia Carlos  
+Algoritmo Sorteado: Merge Sort Iterativo  
 
 ---
 
@@ -44,14 +44,6 @@ Para executar o simulador na sua máquina, digite:
 ```text
 .\trabalho_ed1.exe
 ```
-
----
-
-### Significado dos parâmetros utilizados no compilador:
-- C:\msys64\ucrt64\bin\gcc.exe: é o caminho direto do compilador do C que transforma o código fonte em um executável.
-- -o trabalho_ed1.exe: indica o nome do arquivo executável que será gerado após a compilação.
-- -I e -L: indicam ao compilador os caminhos das pastas onde estão guardados os arquivos de inclusão (.h) e as bibliotecas (.lib) da Raylib no MSYS2.
-- -lraylib -lopengl32 -lgdi32 -lwinmm: realiza a linkagem das bibliotecas gráficas necessárias para abrir a janela do jogo no Windows.
 
 ---
 
