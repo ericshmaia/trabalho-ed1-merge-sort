@@ -4,8 +4,8 @@ Professora: Rosana Cibely Rego
 PEX1241 - Algoritmos e Estrutura de dados I  
 Bacharelado Interdisciplinar em Tecnologia da Informação - UFERSA  
 
-Dupla: Danilo de Oliveira Nunes e Eric Maia Carlos  
-Algoritmo Sorteado: Merge Sort Iterativo  
+Componentes: Danilo de Oliveira Nunes e Eric Maia Carlos  
+Algoritmo: Merge Sort Iterativo  
 
 ---
 
