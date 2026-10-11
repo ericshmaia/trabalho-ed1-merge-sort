@@ -3,11 +3,11 @@
 **Instituição:** Bacharelado Interdisciplinar em Tecnologia da Informação - UFERSA  
 
 **Dupla:** Danilo de Oliveira Nunes e Eric Maia Carlos  
-**Algoritmo:** Merge Sort 
+**Algoritmo Sorteado:** Merge Sort Iterativo (Bottom-Up)  
 
 ---
 
-### Projeto
+### 📂 O Projeto
 O projeto consiste em um simulador interativo desenvolvido em linguagem C com a biblioteca gráfica Raylib, aplicando os seguintes tópicos estudados na disciplina:
 
 *   **Tipos Estruturados:** `struct` para a representação e renderização das barras.
@@ -17,7 +17,7 @@ O projeto consiste em um simulador interativo desenvolvido em linguagem C com a 
 
 ---
 
-### Controles do Simulador
+### 🎮 Controles do Simulador
 *   `[I]` **Iniciar / Continuar:** Ativa a ordenação automática contínua.
 *   `[P]` **Pausar:** Congela o estado atual das variáveis e barras.
 *   `[R]` **Reiniciar:** Recarrega o arquivo `dados.txt` e reseta os contadores.
@@ -25,14 +25,14 @@ O projeto consiste em um simulador interativo desenvolvido em linguagem C com a 
 
 ---
 
-### Como Compilar e Executar (Windows)
-Para compilar o simulador com a correta linkagem da biblioteca Raylib, abra o terminal no VS Code e digite o comando abaixo:
+### 💻 Como Compilar e Executar (Windows)
+Abra o terminal do VS Code na pasta do projeto e execute o comando único de compilação abaixo:
 
 ```bash
-g++ trabalho_ed1.c -o trabalho_ed1.exe -lraylib -lopengl32 -lgdi32 -lwinmm
+gcc trabalho_ed1.c -o trabalho_ed1.exe -lraylib -lopengl32 -lgdi32 -lwinmm
 ```
 
-Após a compilação, execute o programa com:
+Para rodar o simulador após a compilação, digite no terminal:
 ```bash
-./trabaho_ed1.exe
+./trabalho_ed1.exe
 ```
